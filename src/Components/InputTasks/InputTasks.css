@@ -1,0 +1,45 @@
+.input-task-container-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 3.4rem;
+}
+
+.input-task-container{
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #B8FFF9;
+    padding: 1rem;
+}
+
+input{
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    border-radius: .6rem;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+button{
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: #182747;
+    border-radius: 1rem;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.invalid{
+    border: 2px solid red;
+}
+.valid{
+    border: 1px solid black;
+}

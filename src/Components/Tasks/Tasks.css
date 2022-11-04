@@ -1,0 +1,28 @@
+.task-container{
+    background-color:  white;
+    width: fit-content;
+    font-size: larger;
+    font-family:monospace;
+    text-align: center;
+
+    border-radius: 2rem;
+    padding: 0px 2rem;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    height: 2rem;
+}
+
+p{
+    margin: 0px;
+    font-size: x-large;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+}
+.undone{
+    text-decoration: none;
+}
